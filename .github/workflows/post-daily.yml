@@ -3,7 +3,7 @@ name: Daily Auto Post
 on:
   schedule:
     - cron: '0 9 * * *'  # 毎日9時（JSTで+9時間考慮）
-  workflow_dispatch:
+  workflow_dispatch: {}
 
 jobs:
   post_article:
