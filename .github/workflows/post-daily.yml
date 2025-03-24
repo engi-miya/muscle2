@@ -35,4 +35,4 @@ jobs:
           CATEGORY_ID_EARPHONES: ${{ secrets.CATEGORY_ID_EARPHONES }}
           CATEGORY_ID_EBOOKS: ${{ secrets.CATEGORY_ID_EBOOKS }}
           CATEGORY_ID_BATTERIES: ${{ secrets.CATEGORY_ID_BATTERIES }}
-        run: python scripts/post_one_article.py
+        run: python scripts/all_in_one_post_article.py
